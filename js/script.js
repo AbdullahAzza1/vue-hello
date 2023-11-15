@@ -1,10 +1,10 @@
-const { createApp } = vue;
+const { createApp } = Vue;
 
 createApp({
     data() {
         return {
-            message: 'ciao user',
-            numeretto: 100
+            message: ' user',
+            
         }
     }
 }).mount('#app')
