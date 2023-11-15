@@ -8,8 +8,10 @@
 </head>
 <body>
     <div id="app">
-        <h1> ciao {{ message }}</h1>
-        insersci il tuo nome: <input type="text" v-model=" message " >
+        <h1 v-bind:class="color"> ciao {{ message }}</h1>
+        colore che preferisci: <input type="text" v-model="color">
+        insersci il tuo nome: <input type="text" v-model=" message ">
+        <img src="" alt="" v-bind="  ">
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
