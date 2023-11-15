@@ -10,8 +10,8 @@
     <div id="app">
         <h1 v-bind:class="color"> ciao {{ message }}</h1>
         colore che preferisci: <input type="text" v-model="color">
-        insersci il tuo nome: <input type="text" v-model=" message ">
-        <img src="" alt="" v-bind="  ">
+        insersci il tuo nome: <input type="text" v-model=" message "><br>
+        <img v-bind:src="pics" alt="" >
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

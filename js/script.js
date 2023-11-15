@@ -1,11 +1,12 @@
 const { createApp } = Vue;
 
-createApp({
+const opzioni = {
     data() {
         return {
             message: ' user',
             color: 'red',
-            pics: 'jumbo.png'
+            pics: 'https://picsum.photos/200/300'
         }
     }
-}).mount('#app')
+}
+createApp(opzioni).mount('#app')
